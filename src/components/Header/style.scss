@@ -1,0 +1,36 @@
+.header {
+  @apply bg-white w-full;
+  padding: $container-padding-mobile;
+
+  @media (min-width: 768px) {
+    padding: $container-padding-tablet;
+  }
+}
+
+.header-container {
+  width: $content-width;
+  @apply mx-auto;
+  padding: 0 $content-padding;
+  
+  > * {
+    @apply w-full;
+  }
+}
+
+.logo {
+  @apply flex items-center;
+  
+  .logo-img {
+    @apply h-8 md:h-10;
+    width: auto;
+  }
+  
+  .logo-mobile {
+    @apply block md:hidden;
+  }
+  
+  .logo-pc {
+    @apply hidden md:block;
+  }
+}
+

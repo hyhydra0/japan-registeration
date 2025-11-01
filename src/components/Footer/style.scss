@@ -1,0 +1,25 @@
+.footer {
+  @apply bg-eagle-grey w-full;
+  padding: 2rem $container-padding-mobile;
+  
+  @media (min-width: 768px) {
+    padding: 2rem $container-padding-tablet;
+  }
+}
+
+.footer-container {
+  width: $content-width;
+  @apply mx-auto;
+  padding: 0 $content-padding;
+  
+  > * {
+    @apply w-full;
+  }
+}
+
+.footer-text {
+  @apply text-white text-xs md:text-sm text-center;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+

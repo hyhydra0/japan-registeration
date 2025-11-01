@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/variables.scss';
+
+@layer base {
+  body {
+    @apply font-mincho antialiased;
+    font-family: 'MS Mincho', serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
