@@ -5,6 +5,15 @@
 @import './styles/variables.scss';
 
 @layer base {
+  :root {
+    --text-color-primary: #{$text-color-primary};
+    --text-color-dark: #{$text-color-dark};
+    --text-color-medium: #{$text-color-medium};
+    --text-color-light: #{$text-color-light};
+    --text-color-white: #{$text-color-white};
+    --text-color-black: #{$text-color-black};
+  }
+
   body {
     @apply font-mincho antialiased;
     font-family: 'MS Mincho', serif;

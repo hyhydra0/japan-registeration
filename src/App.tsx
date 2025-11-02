@@ -4,7 +4,6 @@ import WhatWeDo from './components/WhatWeDo'
 import InvestmentProject from './components/InvestmentProject'
 import ParticipationConditions from './components/ParticipationConditions'
 import AgreementForm from './components/AgreementForm'
-import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import './App.scss'
 
@@ -17,9 +16,8 @@ function App() {
         <WhatWeDo />
         <InvestmentProject />
         <ParticipationConditions />
-        <AgreementForm />
       </div>      
-      <ContactUs />
+      <AgreementForm />
       <Footer />
     </div>
   )

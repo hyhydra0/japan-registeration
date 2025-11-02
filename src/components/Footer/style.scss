@@ -1,25 +1,107 @@
 .footer {
-  @apply bg-eagle-grey w-full;
-  padding: 2rem $container-padding-mobile;
-  
-  @media (min-width: 768px) {
-    padding: 2rem $container-padding-tablet;
-  }
+  @apply w-full;
+  padding: 2rem 0;
+  background-color: #2E3748;
+  background-image: url('../../assets/images/footer-bg.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .footer-container {
-  width: $content-width;
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 1rem;
   @apply mx-auto;
-  padding: 0 $content-padding;
+  
+  @media (min-width: 1280px) {
+    width: 1280px;
+    padding: 0;
+  }
   
   > * {
     @apply w-full;
   }
 }
 
-.footer-text {
-  @apply text-white text-xs md:text-sm text-center;
+.contact-title {
+  @apply text-white font-bold text-left mb-8;
+  font-size: 1.5rem;
+  
+  @media (min-width: 768px) {
+    font-size: 2.25rem;
+  }
+}
+
+.contact-section {
+  @apply mb-8;
+  
+  .contact-prompt {
+    @apply text-white text-left mb-2;
+    font-size: 0.875rem;
+    
+    @media (min-width: 768px) {
+      font-size: 1.125rem;
+    }
+  }
+  
+  .contact-email {
+    @apply text-white text-left mb-2;
+    font-size: 0.875rem;
+    
+    @media (min-width: 768px) {
+      font-size: 1.125rem;
+    }
+    
+    a {
+      @apply underline;
+    }
+  }
+}
+
+.office-locations {
+  @apply flex flex-col gap-10 mb-8;
+}
+
+.office-details {
+  @apply flex flex-col items-start;
+  
+  .office-title {
+    @apply text-white font-bold mb-4;
+    font-size: 1rem;
+    
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+  
+  p {
+    @apply text-white mb-2;
+    font-size: 0.875rem;
+    
+    @media (min-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+  
+  .driving-directions-btn {
+    @apply bg-eagle-red text-white font-bold py-3 px-6 rounded mt-4;
+    @apply hover:bg-opacity-90 transition-all;
+    font-size: 0.875rem;
+    
+    @media (min-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.regulatory-text {
+  @apply text-white text-xs md:text-sm text-left;
   line-height: 1.6;
   opacity: 0.8;
+  
+  a {
+    @apply underline;
+    text-decoration: underline;
+  }
 }
 

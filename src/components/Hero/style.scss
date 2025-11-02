@@ -1,21 +1,13 @@
 .hero {
   @apply bg-white w-full;
-  padding: 2rem $container-padding-mobile;
+  padding: 2rem 0;
   
   @media (min-width: 768px) {
-    padding: 3rem $container-padding-tablet;
-  }
-  
-  @media (min-width: 1024px) {
-    padding: 5rem $container-padding-desktop;
+    padding: 3rem 0;
   }
 }
 
 .hero-container {
-  width: $content-width;
-  @apply mx-auto;
-  padding: 0 $content-padding;
-  
   > * {
     @apply w-full;
   }
@@ -30,7 +22,7 @@
 }
 
 .hero-title {
-  @apply text-eagle-red text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6;
+  @apply text-eagle-red text-2xl md:text-4xl font-bold mb-4 md:mb-6;
   line-height: 1.2;
 }
 
@@ -41,10 +33,6 @@
 
 .hero-image-wrapper {
   @apply flex-1 w-full;
-  
-  @media (min-width: 768px) {
-    @apply w-full;
-  }
 }
 
 .hero-image {

@@ -4,6 +4,7 @@ import logoMobile from '../../assets/images/logo-mobile.svg'
 import iconTrade from '../../assets/images/icon-trade.svg'
 import iconTechnology from '../../assets/images/icon-technology.svg'
 import iconCheck from '../../assets/images/icon-check.svg'
+import iconSquareEmpty from '../../assets/images/icon-square-empty.svg'
 
 // SVG registry mapping
 const svgRegistry: Record<string, string> = {
@@ -12,6 +13,7 @@ const svgRegistry: Record<string, string> = {
   'icon-trade': iconTrade,
   'icon-technology': iconTechnology,
   'icon-check': iconCheck,
+  'icon-square-empty': iconSquareEmpty,
 }
 
 interface IconSvgProps extends Omit<ComponentPropsWithoutRef<'img'>, 'src'> {

@@ -7,10 +7,21 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-content">
           <h1 className="hero-title">EAGLESEVEN</h1>
-          <p className="hero-description">
-            EAGLESEVEN是一家专注于为美国和全球金融市场提供流动性的私人专有交易公司。
-            我们运用先进的技术、稳健的风险管理以及熟练的交易团队，
-            采用灵活的策略跨越各种资产类别。
+          <p className="hero-description text-text-medium">
+          最先端のテクノロジーと堅実なリスク管理を融合し、経験豊富なプロフェッショナルトレーディングチームを擁しています。
+          </p>
+          <p className="hero-description text-text-medium">
+          科学的かつ柔軟な戦略により多様な資産を運用し、従来の投資や貯蓄の概念を刷新。
+          </p>
+          <p className="hero-description text-text-medium">
+          複雑な資産管理をシンプルかつ効率的にすることで、誰もが気軽に参加でき、安心して投資できるスマートなシステムの構築を目指しています。
+
+          </p>
+          <p className="hero-description text-text-medium">
+          現在、アメリカを中心に100万人以上のユーザーにご利用いただき、管理資産総額は数十億ドル規模に達しています。
+          </p>
+          <p className="hero-description text-text-medium">
+          このたび日本市場においても、Direct Market Access（ダイレクト・マーケット・アクセス）を核とした、プロフェッショナルな取引サービスの提供を正式に開始いたしました。
           </p>
         </div>
         <div className="hero-image-wrapper">

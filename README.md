@@ -1,4 +1,4 @@
-# EAGLESEVEN - 第五期退休保障投资项目
+# EAGLESEVEN - 第5期退職保障投資プロジェクト
 
 A modern, responsive website built with React, Vite, TypeScript, Tailwind CSS, and SCSS.
 

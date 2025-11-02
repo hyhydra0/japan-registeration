@@ -1,9 +1,13 @@
 // Common container settings
 $container-padding-mobile: 1rem !default;
-$container-padding-tablet: 2rem !default;
-$container-padding-desktop: 2rem !default;
-
-// Content width - 80% of viewport
 $content-width: 80% !default;
-$content-padding: 2rem !default;
+$content-padding: 1rem !default;
+
+// Text colors
+$text-color-primary: #A61C34 !default;    // Red
+$text-color-dark: #333333 !default;       // Dark gray
+$text-color-medium: #666666 !default;    // Medium gray
+$text-color-light: #999999 !default;     // Light gray
+$text-color-white: #ffffff !default;      // White
+$text-color-black: #000000 !default;      // Black
 

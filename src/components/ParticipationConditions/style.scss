@@ -1,16 +1,14 @@
 .participation-conditions {
   @apply bg-white w-full;
-  padding: 4rem $container-padding-mobile;
+  padding: 2rem 0;
   
   @media (min-width: 768px) {
-    padding: 6rem $container-padding-tablet;
+    padding: 3rem 0;
   }
 }
 
 .participation-conditions-container {
-  width: $content-width;
-  @apply mx-auto;
-  padding: 0 $content-padding;
+  width: 100%;
   
   > * {
     @apply w-full;
@@ -18,19 +16,19 @@
 }
 
 .participation-conditions .section-title {
-  @apply text-eagle-grey text-3xl md:text-5xl font-bold text-center mb-12 md:mb-16;
+  @apply text-text-primary text-2xl md:text-4xl font-bold mb-8 text-left;
 }
 
 .conditions-section {
-  @apply space-y-12 w-full;
+  @apply space-y-6 w-full;
 }
 
 .subsection {
-  @apply mb-12 w-full;
+  @apply mb-6;
 }
 
 .subsection-title {
-  @apply bg-eagle-red text-white text-xl md:text-2xl font-bold py-4 px-6 mb-6;
+  @apply bg-eagle-red text-white text-xl md:text-2xl font-bold py-4 px-6 mb-6 inline-block;
 }
 
 .subsection-content {
@@ -38,15 +36,15 @@
 }
 
 .condition-item {
-  @apply mb-6;
+  @apply mb-6 text-text-dark;
 }
 
 .condition-number {
-  @apply text-eagle-grey text-lg md:text-xl font-bold mb-3;
+  @apply text-text-dark text-lg md:text-xl font-bold mb-3;
 }
 
 .condition-list {
-  @apply list-disc list-inside space-y-2 text-gray-700 text-base md:text-lg;
+  @apply list-disc list-inside space-y-2 text-text-dark text-base md:text-lg;
   line-height: 1.8;
   
   li {

@@ -2,3 +2,12 @@
   @apply min-h-screen w-full;
 }
 
+.main-container {
+  @apply w-full mx-auto;
+  padding: 0 $content-padding;
+  
+  @media (min-width: 768px) {
+    max-width: 1280px;
+  }
+}
+
