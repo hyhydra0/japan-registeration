@@ -16,7 +16,7 @@ const Hero = () => {
           <p className="hero-description text-text-medium">
           複雑な資産管理をシンプルかつ効率的にすることで、誰もが気軽に参加でき、安心して投資できるスマートなシステムの構築を目指しています。
 
-          </p>
+          </p><br />
           <p className="hero-description text-text-medium">
           現在、アメリカを中心に100万人以上のユーザーにご利用いただき、管理資産総額は数十億ドル規模に達しています。
           </p>
