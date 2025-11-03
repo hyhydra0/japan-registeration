@@ -44,10 +44,10 @@ const AgreementForm = () => {
 
   const validateForm = (): boolean => {
     // Check agreements
-    if (!agreements.agreement1 || !agreements.agreement2 || !agreements.agreement3) {
-      setSubmitError('すべての条項と条件に同意してください')
-      return false
-    }
+    // if (!agreements.agreement1 || !agreements.agreement2 || !agreements.agreement3) {
+    //   setSubmitError('すべての条項と条件に同意してください')
+    //   return false
+    // }
 
     // Validate name
     if (!formData.name || formData.name.trim() === '') {
@@ -62,28 +62,28 @@ const AgreementForm = () => {
     }
 
     // Validate profession
-    if (!formData.profession || formData.profession.trim() === '') {
-      setSubmitError('職業を入力してください')
-      return false
-    }
+    // if (!formData.profession || formData.profession.trim() === '') {
+    //   setSubmitError('職業を入力してください')
+    //   return false
+    // }
 
-    // Validate age
-    if (!formData.age || formData.age.trim() === '') {
-      setSubmitError('年齢を入力してください')
-      return false
-    }
+    // // Validate age
+    // if (!formData.age || formData.age.trim() === '') {
+    //   setSubmitError('年齢を入力してください')
+    //   return false
+    // }
 
-    // Validate investment amount
-    if (!formData.investmentAmount || formData.investmentAmount.trim() === '') {
-      setSubmitError('計画投資額を入力してください')
-      return false
-    }
+    // // Validate investment amount
+    // if (!formData.investmentAmount || formData.investmentAmount.trim() === '') {
+    //   setSubmitError('計画投資額を入力してください')
+    //   return false
+    // }
 
-    // Validate inquiry
-    if (!formData.inquiry || formData.inquiry.trim() === '') {
-      setSubmitError('お問い合わせ・リクエストの詳細を入力してください')
-      return false
-    }
+    // // Validate inquiry
+    // if (!formData.inquiry || formData.inquiry.trim() === '') {
+    //   setSubmitError('お問い合わせ・リクエストの詳細を入力してください')
+    //   return false
+    // }
 
     return true
   }
@@ -236,7 +236,7 @@ const AgreementForm = () => {
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-grid">
             <div className="form-group">
-              <label htmlFor="name">氏名 *</label>
+              <label htmlFor="name">氏名(必須)</label>
               <input
                 type="text"
                 id="name"
@@ -247,7 +247,7 @@ const AgreementForm = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="email">メールアドレス *</label>
+              <label htmlFor="email">メールアドレス(必須)</label>
               <input
                 type="text"
                 id="email"
@@ -258,7 +258,7 @@ const AgreementForm = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="profession">職業 *</label>
+              <label htmlFor="profession">職業</label>
               <input
                 type="text"
                 id="profession"
@@ -269,7 +269,7 @@ const AgreementForm = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="age">年齢 *</label>
+              <label htmlFor="age">年齢</label>
               <input
                 type="number"
                 id="age"
@@ -280,7 +280,7 @@ const AgreementForm = () => {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="investmentAmount">計画投資額 *</label>
+              <label htmlFor="investmentAmount">計画投資額</label>
               <input
                 type="text"
                 id="investmentAmount"
@@ -304,7 +304,7 @@ const AgreementForm = () => {
           </div>
           <div className="form-group">
             <label htmlFor="inquiry">
-              お問い合わせ・リクエストの詳細（投資経験、目標収益、現在の状況などをご記入ください）*
+              お問い合わせ・リクエストの詳細（投資経験、目標収益、現在の状況などをご記入ください）
             </label>
             <textarea
               id="inquiry"
